@@ -1,13 +1,23 @@
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.container {
-    background-color: brown;
-    width: 500px;
-    margin: 0 auto;
+.wrapper {
+    display: flex;
+    justify-content: center; /* Выравнивание по центру */
+}
+
+.sidebar {
+    flex: 1; /* Пустые блоки будут растянуты, чтобы занять доступное пространство */
+}
+
+.content {
+    flex: 3; /* Основной контент будет занимать больше пространства */
+}
+
+.description-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc; /* Пример рамки для визуализации контейнера описания */
 }
