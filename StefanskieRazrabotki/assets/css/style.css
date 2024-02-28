@@ -114,7 +114,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: green;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -124,7 +124,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Отзывы
 --------------------------------------------------------------*/
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -204,4 +204,56 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+}
+/*--------------------------------------------------------------
+# соц сети
+--------------------------------------------------------------*/
+.social-media-container {
+  text-align: center; /* Центрируем содержимое */
+}
+
+.social-media-icons {
+  margin-top: 20px; /* Отступ между заголовком и иконками */
+}
+
+.social-media-icons img {
+  width: 48px; /* Устанавливаем ширину изображений */
+  height: 48px; /* Устанавливаем высоту изображений */
+  margin: 0 10px; /* Добавляем небольшой отступ между изображениями */
+}
+
+
+/*--------------------------------------------------------------
+# Кнопка написать в телеграмм
+--------------------------------------------------------------*/
+
+.button-container {
+  text-align: center; /* Центрирование кнопки */
+}
+
+.button2 button {
+  background-color: #4CAF50; /* Цвет фона кнопки */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px; /* Задаем радиус скругления углов */
+}
+
+.button2 button:hover {
+  background-color: #45a049; /* Изменение цвета фона при наведении */
+}
+
+.button2 button:focus {
+  outline: none; /* Убираем обводку при фокусе */
+}
+
+.button2 button:active {
+  background-color: #4CAF50; /* Изменение цвета фона при нажатии */
+  box-shadow: 0 5px #666; /* Добавляем небольшую тень при нажатии */
 }
