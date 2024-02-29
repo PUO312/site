@@ -163,7 +163,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-    color: #90c8fc;
+    color: green;
     font-size: 26px;
 }
 
@@ -195,11 +195,11 @@ section {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #0563bb;
+    border: 1px solid green;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #0563bb;
+    background-color: green;
 }
 
 @media (max-width: 768px) {
@@ -309,10 +309,13 @@ p {
 
 #one {
   border:solid 5px hsla(0, 95%, 35%, 1);
+    margin: 20px;
 }
 #two{
    border:dotted 5px hsla(0, 95%, 35%, 1);
+    margin: 20px;
 }
 #three{
    border:dashed 5px hsla(0, 95%, 35%, 1);
+    margin: 20px;
 }
