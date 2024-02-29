@@ -265,11 +265,6 @@ section {
 /*--------------------------------------------------------------
 # 3 колонки
 --------------------------------------------------------------*/
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .row {
   display: flex;
@@ -278,12 +273,14 @@ section {
 }
 
 .column {
+    
   flex-basis: 100%;
   max-width: 300px;
   padding: 20px;
   background-color: LightCyan;
-  border-radius: 5px;
+ border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   margin-bottom: 20px; /* Добавляем отступ между колонками */
+    
 }
 
 h3 {
@@ -309,3 +306,13 @@ p {
   }
 }
 
+
+#one {
+  border:solid 5px hsla(0, 95%, 35%, 1);
+}
+#two{
+   border:dotted 5px hsla(0, 95%, 35%, 1);
+}
+#three{
+   border:dashed 5px hsla(0, 95%, 35%, 1);
+}
